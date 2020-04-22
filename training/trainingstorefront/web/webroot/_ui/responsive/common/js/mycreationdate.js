@@ -19,7 +19,7 @@ ACC.myCreationDate = {
                         alert("MyCreationDate attribute updated!");
                         let newDate = new Date($("#myCreationDateFormInput").val());
                         newDate.setHours(newDate.getHours()+24);
-                        $(".creation-date").text(newDate.toDateString());//$(".creation-date").text(newDate.toDateString());
+                        $(".creation-date").text(newDate.toDateString());
                     }
                 })
 
