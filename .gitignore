@@ -5,6 +5,45 @@
 ### Java ###
 # Compiled class file
 *.class
+**/Generated*.java
+**/hmc.jar
+**/ruleset.xml
+**/.pmd
+**/*.log
+**/*build.number
+**/*_bof.jar
+
+#  Addon specific copy folders
+**/web/addonsrc/
+**/web/addontestsrc/
+**/web/commonwebsrc/
+**/web/webroot/WEB-INF/_ui-src/addons/
+**/_ui/addons
+**/views/addons
+**/tld/addons
+**/tags/addons
+**/messages/addons
+
+**/gensrc/
+**/classes/
+**/items.xsd
+**/beans.xsd
+**/hmc.xsd
+**/build.xml
+**/platformhome.properties
+!/build.xml
+**/extensioninfo.xsd
+**/*-testclasses.xml
+**/*-webtestclasses.xml
+**/*-hmctestclasses.xml
+**/testclasses/
+**/eclipsebin/
+.springBeans
+.project
+.DS_Store
+project/env/local/20-local.properties
+**/.vagrant/
+velocity.log
 
 # Log file
 *.log
@@ -26,9 +65,6 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-
-### Less ###
-*.less
 
 ### macOS ###
 # General

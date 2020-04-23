@@ -538,4 +538,9 @@
 		<property name="itemCleanupHooks" ref="csTicketRetentionHooks"/>
 		<property name="ticketBusinessService" ref="ticketBusinessService"/>
 	</bean>
+
+<!--	Past days attribute handler -->
+	<alias name="defaultProductPastDaysAttributeHandler" alias="productPastDaysAttributeHandler"/>
+	<bean id="defaultProductPastDaysAttributeHandler" class="de.hybris.training.core.attributehandlers.ProductPastDaysAttributeHandler"/>
+
 </beans>

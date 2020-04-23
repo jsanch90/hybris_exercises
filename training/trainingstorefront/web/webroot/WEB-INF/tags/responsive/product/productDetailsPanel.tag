@@ -40,6 +40,7 @@
                                        action="${creationDatePath}">
                                 <p><spring:theme code="utrend.text.product.creationDate"/> : <span
                                         class="creation-date">${product.formattedMyCreationDate}</span></p>
+                                <p>Past days: <span class="past-days">${product.pastDays}</span> </p>
                                 <input id="myCreationDateFormInput" name="myCreationDateFormInput" type="date"/>
                                 <input type="hidden" value="${product.code}" name="productCode" id="productCode"/>
                                 <button type="button" class="my_creation_date_form_submit">Change date</button>
