@@ -26,5 +26,6 @@ public class MyCreationDatePopulator implements Populator<ProductModel, ProductD
             productData.setFormattedMyCreationDate(formattedMyCreationDate);
             productData.setMyCreationDate(new Date());
         }
+        productData.setPastDays(productModel.getPastDays().toString());
     }
 }

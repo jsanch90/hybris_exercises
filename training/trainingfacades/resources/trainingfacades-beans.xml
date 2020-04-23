@@ -8,6 +8,7 @@
 		<property name="genders" type="java.util.List&lt;de.hybris.training.facades.product.data.GenderData>"/>
 		<property name="myCreationDate" type="java.util.Date"/>
 		<property name="formattedMyCreationDate" type="java.lang.String"/>
+		<property name="pastDays" type="java.lang.String"/>
 	</bean>
 
 	<bean class="de.hybris.training.facades.product.data.GenderData">
