@@ -34,6 +34,3 @@ ACC.myCreationDate = {
         })
     }
 }
-
-
-training/trainingfulfilmentprocess/gensrc/de/hybris/training/fulfilmentprocess/constants/GeneratedTrainingFulfilmentProcessConstants.java training/trainingfulfilmentprocess/gensrc/de/hybris/training/fulfilmentprocess/jalo/GeneratedTrainingFulfilmentProcessManager.java
